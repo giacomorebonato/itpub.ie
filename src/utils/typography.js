@@ -7,6 +7,7 @@ Wordpress2016.overrideThemeStyles = () => ({
   },
 })
 
+// @ts-ignore
 delete Wordpress2016.googleFonts
 
 const typography = new Typography(Wordpress2016)

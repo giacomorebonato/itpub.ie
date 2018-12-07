@@ -12,6 +12,7 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const siteDescription = post.excerpt
     const { previous, next } = this.props.pageContext
+    let { author } = post.frontmatter
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -37,7 +38,7 @@ class BlogPostTemplate extends React.Component {
             marginBottom: rhythm(1),
           }}
         />
-        <Bio />
+        <Bio author={author} />
 
         <ul
           style={{
@@ -49,20 +50,18 @@ class BlogPostTemplate extends React.Component {
           }}
         >
           <li>
-            {
-              previous &&
+            {previous && (
               <Link to={previous.fields.slug} rel="prev">
                 ← {previous.frontmatter.title}
               </Link>
-            }
+            )}
           </li>
           <li>
-            {
-              next &&
+            {next && (
               <Link to={next.fields.slug} rel="next">
                 {next.frontmatter.title} →
               </Link>
-            }
+            )}
           </li>
         </ul>
       </Layout>
@@ -85,6 +84,7 @@ export const pageQuery = graphql`
       excerpt
       html
       frontmatter {
+        author
         title
         date(formatString: "MMMM DD, YYYY")
       }
