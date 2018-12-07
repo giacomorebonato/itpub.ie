@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Blog',
-    description: 'A starter blog demonstrating what Gatsby can do.',
+    title: 'IT life in Dublin',
+    description: 'Phylosophy and drills for your IT life in Dublin.',
     siteUrl: 'https://gatsby-starter-blog-demo.netlify.com/',
   },
   pathPrefix: '/gatsby-starter-blog',
