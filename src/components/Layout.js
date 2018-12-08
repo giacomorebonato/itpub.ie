@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
+import { GlobalStyle } from './GlobalStyle'
 import { rhythm, scale } from '../utils/typography'
 
 class Layout extends React.Component {
@@ -64,6 +64,7 @@ class Layout extends React.Component {
       >
         {header}
         {children}
+        <GlobalStyle />
       </div>
     )
   }
