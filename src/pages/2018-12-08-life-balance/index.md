@@ -1,6 +1,6 @@
 ---
 author: Jack
-title: Work life balance in IT
+title: Work-life balance in IT
 date: "2018-12-08T17:38:58.475Z"
 ---
 
@@ -11,9 +11,9 @@ is good to keep some healthy habits.
 
 ### Do sport
 
-There is no excuse... Every body can do sport at it's own
+There is no excuse... Everybody can do sport at its own
 level and it's good for the mind.  
-Especially when I am going through stressfull periods, sport
+Especially when I am going through stressful periods, sport
 is something that gratifies you and frees your mind from
 job's thoughts.
 
@@ -23,8 +23,8 @@ After some years I got used to Dublin's weather and temperature,
 but during winter we get a lot less sunlight.
 Using a vitamin D integrator (I use cod liver oil) helps you to
 stay resilient and positive.
-I have no medicine knowledge... but I notice the effects of it
-after a few days of assumptio.
+I have no medical knowledge... but I notice the effects of it
+after a few days of assumption.
 
 ### Build awareness around your time connected
 
@@ -39,11 +39,11 @@ notify our phones.
 
 ### Check your alcohol assumption
 
-It's important to socialize and also to have a well deserved pint
+It's important to socialize and also to have a well-deserved pint
 after a week of hard work.  
 It is a very usual habit here in Dublin and I believe that like
 with all the things, it's healthy to keep a balance.
-Alcohol can affect your sleep time and focus and also exagerating
+Alcohol can affect your sleep time and focus and also exaggerating
 on Friday's drink might preserve you to do something different in 
 the only days that you are free.
 
