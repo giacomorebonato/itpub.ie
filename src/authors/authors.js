@@ -1,15 +1,15 @@
 // @ts-ignore
-import CanAvatar from './CanAvatar.jpg'
+import CanAvatar from './CanAvatar'
 // @ts-ignore
-import JackAvatar from './JackAvatar.jpg'
+import JackAvatar from './JackAvatar'
 
 let authors = {
   Can: {
-    description: 'Hello, I am Can. I build things in Dublin.',
+    description: 'Hello, I am <strong>Can</strong>. I build things in Dublin.',
     pic: CanAvatar,
   },
   Jack: {
-    description: 'Hello, I am Jack. I build things in Dublin.',
+    description: 'Hello, I am <strong>Jack</strong>. I build things in Dublin.',
     pic: JackAvatar,
   },
 }
