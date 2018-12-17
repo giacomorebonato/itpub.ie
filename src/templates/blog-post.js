@@ -12,7 +12,7 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const siteDescription = post.excerpt
     const { previous, next } = this.props.pageContext
-    let { author } = post.frontmatter
+    let { author, date } = post.frontmatter
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -22,7 +22,8 @@ class BlogPostTemplate extends React.Component {
           title={`${post.frontmatter.title} | ${siteTitle}`}
         />
         <h1>{post.frontmatter.title}</h1>
-        <p>{post.frontmatter.date}</p>
+        <strong>{date}</strong>
+        <hr />
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr />
         <Bio author={author} />
